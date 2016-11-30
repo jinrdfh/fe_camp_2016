@@ -1,0 +1,13 @@
+.up
+{
+	height : 500px;
+	width : 400px;
+	background-image : url(../img/0.jpg);
+}
+
+.down
+{
+	height : 500px;
+	width : 400px;
+	background-image : url(../img/1.jpg);
+}
