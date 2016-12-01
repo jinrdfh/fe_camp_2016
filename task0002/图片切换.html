@@ -1,15 +1,36 @@
+﻿<!DOCTYPE html>
 <html>
 <head>
-	<meta charset = "uft-8">
+	<meta charset = "UFT-8">
 	<title>图片切换</title>
 	<link rel = "stylesheet" href = "./css/图片切换.css">
 </head>
-<body>
-	<div class = "up">
-		<h1>我的</h1>
+<body id = "bkgd">
+	<div class = "pst">
+		<button class = "btn" id = "xx">小新</button><br />
+	    <button class = "btn" id = "bw">巴卫</button>
 	</div>
-	<div class = "down">
-		<h1>你的</h1>
-	</div>
+	<script>
+	    var btnxx = document.getElementById("xx");
+	    var btnbw = document.getElementById("bw");
+	    var bgimg = document.getElementById("bkgd");
+
+	    btnxx.onclick = function()
+	    {
+	    	bgimg.style.backgroundImage = "url(./img/xx.jpg)";
+	    	btnxx.style.backgroundImage = "url(./img/btn-blue.png)";
+	    	btnbw.style.backgroundImage = "url(./img/btn-gray.png)";
+	    	btnxx.style.color = '#393937';
+	    	btnbw.style.color = '#5d99a1';
+	    }
+	    btnbw.onclick = function()
+	    {
+	    	bgimg.style.backgroundImage = "url(./img/bw.jpg)";
+	    	btnbw.style.backgroundImage = "url(./img/btn-blue.png)";
+	    	btnxx.style.backgroundImage = "url(./img/btn-gray.png)";
+	    	btnbw.style.color = '#393937';
+	    	btnxx.style.color = '#5d99a1';
+	    }
+	    </script>
 </body>
 </html>

@@ -1,13 +1,48 @@
-.up
+﻿body, html
 {
-	height : 500px;
-	width : 400px;
-	background-image : url(../img/0.jpg);
+	height : 100%;
+	margin : 0;
+}
+body 
+{
+	background-image : url(../img/bw.jpg);
+	background-size : cover;
+	background-repeat : no-repeat;
+}
+.pst 
+{
+	margin : auto;
+	height : 350px;
+	width : 500px;
+	position : relative;
+	top : 35%;
+	left : 20%;
 }
 
-.down
+.btn 
 {
-	height : 500px;
-	width : 400px;
-	background-image : url(../img/1.jpg);
+	margin : auto;
+	height : 40px;
+	width :200px;
+	position : relative;
+	border-radius : 6px;
+	font-size : 30px;
+	left : 20%;
 }
+
+#bw 
+{
+	background-image : url(../img/btn-blue.png);
+	background-size : cover;
+	color : #393937;
+	top : 30%;
+}
+
+#xx
+{
+	background-image : url(../img/btn-gray.png);
+	background-size : cover;
+	color : #5d99a1;
+	top : 10%;
+}
+
