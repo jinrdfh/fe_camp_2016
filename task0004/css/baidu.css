@@ -1,0 +1,64 @@
+p 
+{
+	font-weight : 700;
+	float : right;
+	font-size : 13px;
+	padding : 5px 5px;
+}
+
+a
+{
+	margin : 5px;
+	text-decoration : underline;
+}
+
+.head1
+{
+	font-weight : 500;
+}
+
+.head2
+{
+	font-weight : 500;
+	background-color : blue;
+	float : right;
+	color : white;
+}
+
+img 
+{
+	height : 120px;
+	position : relative;
+	left : 10%;
+}
+
+div
+{
+	position : relative;
+	left : 20%;
+	top : 150px;
+}
+
+input 
+{
+	width : 600px;
+	height : 30px;
+}
+
+#sub 
+{
+	background-color : blue;
+	color : white;
+	font-size : 20px;
+	padding : 10px;
+}
+
+form
+{
+	margin : 0;
+}
+
+a:hover
+{
+	color : blue;
+}

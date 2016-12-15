@@ -1,0 +1,21 @@
+p:hover > img
+{
+	display : block;
+}
+
+p:hover
+{
+	color : red;
+}
+
+img
+{
+	display : none;
+	width : 200px;
+	height :200px;
+}
+
+#mp 
+{
+	display :inline;
+}

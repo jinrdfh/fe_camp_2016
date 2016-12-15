@@ -1,0 +1,30 @@
+#box
+{
+	margin : auto;
+	height : 30px;
+	width : 200px;
+	text-align : center;
+}
+
+#head
+{
+	margin : 0;
+	background-color : gray;
+}
+
+h2
+{
+	margin : 0;
+	background-color : blue;
+	display : none;
+}
+
+#box:hover > h2
+{
+	display : block;
+}
+
+h2:hover
+{
+	color : red;
+}
